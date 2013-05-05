@@ -17,6 +17,7 @@
         - Imagemagick 'convert'  + Microsoft Gif Animator -
 
   ********************************/
+  
 ;(function($){
 
    $.fn.sheep = function(options) {
