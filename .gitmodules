@@ -1,3 +1,1 @@
-[submodule "generator/json.php"]
-	path = generator/json.php
-	url = https://github.com/pear/Services_JSON/JSON.php
+
