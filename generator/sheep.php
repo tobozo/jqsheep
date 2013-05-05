@@ -516,8 +516,7 @@ body {
   background-color:#cecece;
 }
 
-h1 {
-  font-size:34px;
+h1, h2 {
   text-shadow: 2px 2px 3px rgba(10,20,30,0.4), -2px -2px 3px rgba(224,224,224,0.4);
 }
 
@@ -537,6 +536,20 @@ h1 span.sheeped {
   width:16px;
   height:16px;
   margin:0 5px;
+}
+
+textarea {
+    background: none repeat scroll 0 0 #333333;
+    border: 2px solid #666666;
+    color: #CCCCCC;
+    display: block;
+    font-family: consolas,monospace;
+    height: 180px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 12px;
+    resize: none;
+    width: 700px;
 }
 
 .reversed {
@@ -589,7 +602,7 @@ h1 span.sheeped {
 
 
 div.sky {
-    position:absolute;
+    position:fixed;
     width:100%;
     height:50%;
     top:0px;
@@ -601,7 +614,7 @@ div.sky {
     border-bottom: 3px solid #C4D86C;
 }
 div.grass {
-    position:absolute;
+    position:fixed;
     width:100%;
     height:50%;
     bottom:0px;
@@ -716,10 +729,24 @@ div.grass {
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 <div align="center" id="footer">
+ <p></p>
+ <h2>Usage example</h2>
+  <textarea>
+
+    <script src="jquery.1.8.2.js" type="text/javascript"></script>
+    <script src="jquery.sheep.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      ;(function() {
+        $('.item').sheep();
+      })(jQuery);
+    </script>
+  </textarea>
+
   <div style="white-space:pre;display:inline-block;text-align:center;font-size:10px;font-family:sans-serif;">
     Credits :
 <?=$credits;?>
   </div>
+  <p></p>
 </div>
 <script type="text/javascript">
 
