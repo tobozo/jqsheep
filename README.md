@@ -3,7 +3,7 @@ jQuery Sheep Plugin
 
 *Another useless plugin brought to you by tobozo - copyleft (c+) 2013
 
-- demo    : http://phpsecure.info/sheep.php
+- demo    : http://tobozo.github.io
 - twitter : @TobozoTagada
 
 
