@@ -3,8 +3,8 @@ jQuery Sheep Plugin
 
 *Another useless plugin brought to you by tobozo - copyleft (c+) 2013
 
-- demo    : http://tobozo.github.io
-- twitter : @TobozoTagada
+- demo    : http://tobozo.github.io/sheeps.html
+- twitter : http://twitter.com/TobozoTagada
 
 
 Credits :
